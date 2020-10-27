@@ -2,5 +2,9 @@
     "name": "Genshin Impact Compendium",
     "version": "1.0",
     "description": "Simple Launcher for Genshin Impact Information",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Genshin Compendium",
+        "default_popup": "popup.html"
+    }
   }
